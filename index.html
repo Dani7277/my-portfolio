@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vivian Onyejiaka - Portfolio</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Header with Navigation -->
+    <header>
+        <div class="container">
+            <h1 class="logo">Vivian Onyejiaka</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- About Section -->
+        <section id="about" class="section">
+            <div class="container">
+                <h2>About Me</h2>
+                <p>Hello! I'm Vivian Onyejiaka, a passionate web development student at Humber College. I'm currently learning HTML, CSS, and JavaScript to build modern, responsive websites.</p>
+                <p>When I'm not coding, I enjoy learning new technologies and working on creative projects. I'm excited to continue growing my skills and building amazing web experiences.</p>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section">
+            <div class="container">
+                <h2>My Projects</h2>
+                <div class="project-grid">
+                    <div class="project-card">
+                        <h3>Portfolio Website</h3>
+                        <p>This current portfolio website built with HTML and CSS as part of my web development coursework.</p>
+                    </div>
+                    <div class="project-card">
+                        <h3>Coming Soon</h3>
+                        <p>More projects will be added as I continue my learning journey in web development.</p>
+                    </div>
+                    <div class="project-card">
+                        <h3>Future Project</h3>
+                        <p>Stay tuned for more exciting projects featuring JavaScript and modern web technologies.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section">
+            <div class="container">
+                <h2>Contact Me</h2>
+                <p>I'd love to connect! Feel free to reach out for collaboration opportunities or just to say hello.</p>
+                <div class="contact-info">
+                    <p>Email: N01219487@humber.ca</p>
+                    <p>Student at Humber College</p>
+                </div>
+                <p class="note">A contact form will be added in future updates.</p>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; <span id="current-year"></span> Vivian Onyejiaka. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Update the current year in the footer
+        document.getElementById('current-year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
