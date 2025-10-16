@@ -153,4 +153,36 @@ footer {
     .section {
         padding: 2.5rem 0;
     }
+
+
+/* Enhanced mobile responsiveness */
+@media (max-width: 480px) {
+    .project-grid {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+    
+    .section h2 {
+        font-size: 1.5rem;
+    }
+    
+    nav ul {
+        flex-wrap: wrap;
+    }
+    
+    nav ul li {
+        margin: 0.5rem;
+    }
+}
+
+/* Add smooth scrolling */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Enhance footer to be fixed at bottom */
+footer {
+    position: relative;
+    width: 100%;
+}
 }
